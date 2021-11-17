@@ -2,6 +2,7 @@
     max-width: 800px;
     margin: 0 auto;
     display: flex;
+    overflow: hidden;
 }
 
 #imagen {
@@ -9,3 +10,13 @@
     height: 400px;
     background-size: cover;
 }
+
+#avanzar {
+    z-index: 2;
+}
+
+#retroceder {
+    z-index: 2;
+}
+
+
